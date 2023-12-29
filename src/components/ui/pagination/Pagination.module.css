@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.textButton {
+  font-size: var(--font-size-6);
+  line-height: var(--line-height-5);
+  font-weight: var(--bold);
+  border: none;
+  background-color: transparent;
+  color: var(--text-color);
+  cursor: pointer;
+}
+
+.textButton:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.numberButtonsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.numberButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 32px;
+  height: 32px;
+  border-radius: 4px;
+  border: none;
+  color: var(--text-color);
+  cursor: pointer;
+}
+
+.dots {
+  pointer-events: none;
+  user-select: none;
+}

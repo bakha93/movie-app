@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox {
+  display: none;
+}
+
+.label {
+  position: relative;
+  font-size: var(--font-size-7);
+  line-height: var(--line-height-5);
+  font-weight: var(--regular);
+  padding-left: 28px;
+  user-select: none;
+  cursor: pointer;
+}
+
+.label::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 18px;
+  height: 17px;
+  border-radius: 5px;
+  background-color: var(--input-color);
+}
+
+.checkbox:checked + .label::before {
+  content: "✔";
+  text-align: center;
+  font-size: 14px;
+  line-height: 18px;
+  color: var(--text-color);
+}

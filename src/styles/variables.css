@@ -1,0 +1,34 @@
+:root {
+  --primary-color: #2bd17e;
+  --error-color: #eb5757;
+  --bg-color: #093545;
+  --input-color: #224957;
+  --card-color: #092c39;
+  --text-color: #fff;
+
+  --content-width: 1440px;
+  --footer-height: 111px;
+  --border-radius: 10px;
+
+  --font-sans: "Montserrat", sans-serif;
+
+  --regular: 400;
+  --semibold: 600;
+  --bold: 700;
+
+  --font-size-1: 64px;
+  --font-size-2: 48px;
+  --font-size-3: 32px;
+  --font-size-4: 24px;
+  --font-size-5: 20px;
+  --font-size-6: 16px;
+  --font-size-7: 14px;
+  --font-size-8: 12px;
+
+  --line-height-1: 80px;
+  --line-height-2: 56px;
+  --line-height-3: 40px;
+  --line-height-4: 32px;
+  --line-height-5: 24px;
+  --line-height-6: 16px;
+}

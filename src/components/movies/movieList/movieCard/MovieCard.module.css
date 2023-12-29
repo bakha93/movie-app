@@ -1,0 +1,42 @@
+.card {
+  padding: 8px;
+  border-radius: 12px;
+  background-color: var(--card-color);
+}
+
+.card:hover {
+  backdrop-filter: blur(100px);
+
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.09) 0%,
+      rgba(255, 255, 255, 0.09) 100%
+    ),
+    rgba(8, 41, 53, 0.55);
+}
+
+.poster {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 8px;
+  padding: 8px;
+}
+
+.title {
+  font-size: var(--font-size-5);
+  line-height: var(--line-height-4);
+  font-weight: var(--semibold);
+}
+
+.year {
+  font-size: var(--font-size-7);
+  line-height: var(--line-height-5);
+  font-weight: var(--regular);
+}
