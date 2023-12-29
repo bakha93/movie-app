@@ -1,4 +1,4 @@
 # movie-app
 
-email: admin
+email: admin  
 password: admin
